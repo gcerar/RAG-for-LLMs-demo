@@ -1,0 +1,22 @@
+line-length = 255
+
+extend-exclude = ["tests", "tmp", ".cache"]
+
+extend-include = ["*.ipynb"]
+
+
+[lint]
+select = [
+    # pycodestyle
+    "E",
+    # Pyflakes
+    "F",
+    # pyupgrade
+    "UP",
+    # flake8-bugbear
+    "B",
+    # flake8-simplify
+    "SIM",
+    # isort
+    "I",
+]

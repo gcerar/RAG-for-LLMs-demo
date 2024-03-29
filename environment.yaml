@@ -1,0 +1,48 @@
+name: rag
+
+channels:
+  - pytorch
+  - nvidia
+  - rapidsai
+  - anaconda
+  - defaults
+  - conda-forge
+
+dependencies:
+  - python~=3.12.0
+  - pip
+
+  - faiss-gpu-raft~=1.8.0
+
+  - pytorch~=2.2.1
+  - pytorch-cuda=12.1
+
+  - jupyterlab~=4.1.5
+
+  - pip:
+    - langchain~=0.1.13
+    - langchain-community~=0.0.29
+
+    #- llama-cpp-python~=0.2.56
+    - pypdf~=4.1.0
+    #- tiktoken~=0.6.0
+    #- qdrant-client[fastembed]~=1.8.0
+
+    - python-dotenv==1.0.1
+
+    - streamlit~=1.32.2
+    - streamlit-server-state~=0.17.1
+
+    - beautifulsoup4
+    - lxml
+
+    - accelerate
+    - transformers
+    - tokenizers
+    - bitsandbytes
+    - sentence_transformers
+    #- einops
+    #- xformers
+    #- PyMuPDF
+
+    - ruff
