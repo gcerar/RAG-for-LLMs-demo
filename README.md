@@ -33,3 +33,4 @@ This project is licensed under the [MIT License](LICENSE) - see the LICENSE file
 
 ## Acknowledgements
 - Reference implementation: [medium/@murtuza753](https://medium.com/@murtuza753/using-llama-2-0-faiss-and-langchain-for-question-answering-on-your-own-data-682241488476)
+- Inspiration: [promptingguide.ai/research/rag](https://www.promptingguide.ai/research/rag)
