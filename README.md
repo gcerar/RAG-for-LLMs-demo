@@ -10,6 +10,7 @@ This repository contains a demonstration of Retrieval Augmented Generation (RAG)
 ### Prerequisites
 Before you begin, ensure you have the following installed:
 - Conda package manager
+- HuggingFace token located in `.env` file in project's root with `HF_TOKEN=...` row.
 
 ### Installation
 1. Clone this repository to your local machine
@@ -20,8 +21,7 @@ Before you begin, ensure you have the following installed:
 1. Activate conda environment: `conda activate rag`
 2. Start Jupyter Notebook or JupyterLab: `jupyter-lab`
 3. Open the `EEML2024-demo.ipynb` notebook.
-
-3. Follow the instructions within the notebook to explore the capabilities of RAG for LLMs.
+4. Follow the instructions within the notebook to explore the capabilities of RAG for LLMs.
 
 ## Future Plans
 - **Streamlit Application:** Convert the demo into an interactive Streamlit application for a more user-friendly experience.
